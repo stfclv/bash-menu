@@ -22,7 +22,7 @@ fi
 ## should continue, or return 0 to signify the menu
 ## should exit.
 ################################
-actionA() {
+action1() {
     echo ""Deploy Terraform instances on GCP""
 
     echo -n "Press enter to continue ... "
@@ -31,7 +31,7 @@ actionA() {
     return 1
 }
 
-actionB() {
+action2() {
     echo "OS Prerequisites & Performance Management"
 
     echo -n "Press enter to continue ... "
@@ -40,8 +40,8 @@ actionB() {
     return 1
 }
 
-actionC() {
-    echo "Action C"
+action3() {
+    echo "Prereqs Checker"
 
     echo -n "Press enter to continue ... "
     read response
@@ -49,10 +49,52 @@ actionC() {
     return 1
 }
 
+
+
+action4() {
+    echo "Confluent Platform 6.x deployment via Ansible"
+
+    echo -n "Press enter to continue ... "
+    read response
+
+    return 1
+}
+
+
+action5() {
+    echo "Monitoring w/Prometheus & Grafana"
+
+    echo -n "Press enter to continue ... "
+    read response
+
+    return 1
+}
+
+action6() {
+    echo "Kafka Cluster Benchmarking"
+
+    echo -n "Press enter to continue ... "
+    read response
+
+    return 1
+}
+
+
+action7() {
+    echo "Data-in-Motion Checker via Connect/ksqlDB"
+
+    echo -n "Press enter to continue ... "
+    read response
+
+    return 1
+}
+
+
 actionX() {
 
     return 0
 }
+
 ################################
 
 ## Menu Item Text
@@ -68,20 +110,22 @@ menuItems=(
     "1. Deploy Terraform instances on GCP"
     "2. OS Prerequisites & Performance Management"
     "3. Prereqs Checker"
-    "3. Monitoring w/Prometheus & Grafana"
-    "A. Kafka Cluster Benchmarking"
-    "B. Data-in-Motion Checker via Connect/ksqlDB"
+    "4. Confluent Platform 6.x deployment via Ansible"
+    "5. Monitoring w/Prometheus & Grafana"
+    "6. Kafka Cluster Benchmarking"
+    "7. Data-in-Motion Checker via Connect/ksqlDB"
     "Q. Exit"
 )
 
 ## Menu Item Actions
 menuActions=(
-    actionA
-    actionB
-    actionC
-    actionA
-    actionB
-    actionX
+    action1
+    action2
+    action3
+    action4
+    action5
+    action6
+    action7
 )
 
 ## Override some menu defaults
