@@ -23,7 +23,7 @@ fi
 ## should exit.
 ################################
 actionA() {
-    echo "Action A"
+    echo ""Deploy Terraform instances on GCP""
 
     echo -n "Press enter to continue ... "
     read response
@@ -32,7 +32,7 @@ actionA() {
 }
 
 actionB() {
-    echo "Action B"
+    echo "OS Prerequisites & Performance Management"
 
     echo -n "Press enter to continue ... "
     read response
@@ -50,12 +50,9 @@ actionC() {
 }
 
 actionX() {
+
     return 0
 }
-
-
-################################
-## Setup Example Menu
 ################################
 
 ## Menu Item Text
@@ -68,12 +65,13 @@ actionX() {
 ## NOTE: If these are not all the same width
 ##       the menu highlight will look wonky
 menuItems=(
-    "1. Item 1"
-    "2. Item 2"
-    "3. Item 3"
-    "A. Item A"
-    "B. Item B"
-    "Q. Exit  "
+    "1. Deploy Terraform instances on GCP"
+    "2. OS Prerequisites & Performance Management"
+    "3. Prereqs Checker"
+    "3. Monitoring w/Prometheus & Grafana"
+    "A. Kafka Cluster Benchmarking"
+    "B. Data-in-Motion Checker via Connect/ksqlDB"
+    "Q. Exit"
 )
 
 ## Menu Item Actions
@@ -87,9 +85,9 @@ menuActions=(
 )
 
 ## Override some menu defaults
-menuTitle=" Demo of bash-menu"
-menuFooter=" Enter=Select, Navigate via Up/Down/First number/letter"
-menuWidth=60
+menuTitle="   Templatization POC | Confluent Platform (CP 6.x) "
+menuFooter="  Enter=Select, Navigate via Up/Down/First number/letter "
+menuWidth=80
 menuLeft=25
 menuHighlight=$DRAW_COL_YELLOW
 
@@ -99,6 +97,5 @@ menuHighlight=$DRAW_COL_YELLOW
 ################################
 menuInit
 menuLoop
-
 
 exit 0
