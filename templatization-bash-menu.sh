@@ -41,7 +41,7 @@ action2() {
 		     unbuffer ./.action2.sh 2>&1 | tee -a exec_logs/`date +\%Y\%m\%d_Action_2_\%H:\%M`-2.log;
 
 		echo -e "\nPress ENTER To Return to the main menu..."
-		read
+		read reponse
 		return 1
 	 }
 
@@ -54,10 +54,9 @@ action3() {
 		cat ../prereq-checks-poc/ansible/out/*.out
 
 		echo -e "\nPress ENTER To Return to the main menu..."
-		read
+		read response
 		return 1
 	  }
-
 
 
 action4() {
@@ -68,7 +67,7 @@ action4() {
 		unbuffer ansible-playbook -i ../cp-ansible-cah-poc/hosts.yml ../cp-ansible-cah-poc/all.yml 2>&1 | tee -a exec_logs/`date +\%Y\%m\%d_Action_4_\%H:\%M`-4.log ;
 
 		echo -e "\nPress ENTER To Return to the main menu..."
-		read
+		read response
 		return 1
 	  }
 
@@ -76,12 +75,9 @@ action4() {
 action5() {
 		echo "Monitoring w/Prometheus & Grafana"
 		echo -n "Press enter to continue ... "
-		echo -e "\nPress ENTER To Return to the main menu..."
-                
-
 
  		echo -e "\nPress ENTER To Return to the main menu..."
-                read
+                read response
                 return 1
 	  }
 
@@ -90,7 +86,7 @@ action6() {
 		echo -n "Press enter to continue ... "
 	 
 		echo -e "\nPress ENTER To Return to the main menu..."
-                read
+                read response
                 return 1
 
 	   }
@@ -99,6 +95,8 @@ action6() {
 action7() {
 		echo "Data-in-Motion Checker via Connect/ksqlDB"
 		echo -n "Press enter to continue ... "
+
+		unbuffer ./.action7.sh  2>&1 | tee -a exec_logs/`date +\%Y\%m\%d_Action_7_\%H:\%M`-7.log ;
 
 		echo -e "\nPress ENTER To Return to the main menu..."
                 read

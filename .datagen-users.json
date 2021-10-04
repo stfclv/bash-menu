@@ -1,0 +1,11 @@
+{
+  "name": "datagen-users",
+  "config": {
+    "name": "datagen-users",
+    "connector.class": "io.confluent.kafka.connect.datagen.DatagenConnector",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "kafka.topic": "users",
+    "max.interval": "1000",
+    "quickstart": "users"
+  }
+}
