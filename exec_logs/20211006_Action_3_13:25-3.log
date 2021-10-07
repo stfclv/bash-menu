@@ -1,0 +1,78 @@
+
+PLAY [all] *********************************************************************************************************************************************************************************************************************************
+Wednesday 06 October 2021  13:25:45 +0000 (0:00:00.048)       0:00:00.048 ***** 
+Wednesday 06 October 2021  13:25:45 +0000 (0:00:00.011)       0:00:00.059 ***** 
+Wednesday 06 October 2021  13:25:45 +0000 (0:00:00.012)       0:00:00.072 ***** 
+Wednesday 06 October 2021  13:25:45 +0000 (0:00:00.027)       0:00:00.100 ***** 
+
+TASK [prereq-checks : create temporary directory] ******************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-3z2z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:46 +0000 (0:00:00.653)       0:00:00.753 ***** 
+[0;33mchanged: [sclairville-cah-hg24.c.solutionsarchitect-01.internal][0m
+[0;33mchanged: [sclairville-cah-3s98.c.solutionsarchitect-01.internal][0m
+[0;33mchanged: [sclairville-cah-hn4z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:46 +0000 (0:00:00.022)       0:00:00.775 ***** 
+Wednesday 06 October 2021  13:25:46 +0000 (0:00:00.016)       0:00:00.792 ***** 
+Wednesday 06 October 2021  13:25:46 +0000 (0:00:00.030)       0:00:00.823 ***** 
+
+TASK [prereq-checks : copy driver file to target] ******************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-hn4z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:47 +0000 (0:00:01.332)       0:00:02.155 ***** 
+[0;33mchanged: [sclairville-cah-3z2z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:47 +0000 (0:00:00.023)       0:00:02.179 ***** 
+[0;33mchanged: [sclairville-cah-3s98.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:47 +0000 (0:00:00.139)       0:00:02.319 ***** 
+[0;33mchanged: [sclairville-cah-hg24.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:47 +0000 (0:00:00.062)       0:00:02.382 ***** 
+
+TASK [prereq-checks : run driver] **********************************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-3s98.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:51 +0000 (0:00:03.881)       0:00:06.263 ***** 
+
+TASK [prereq-checks : fetch outputs from target] *******************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-3s98.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:52 +0000 (0:00:00.465)       0:00:06.729 ***** 
+
+TASK [prereq-checks : clean up temporary directory] ****************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-3s98.c.solutionsarchitect-01.internal][0m
+
+TASK [prereq-checks : run driver] **********************************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-hg24.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:54 +0000 (0:00:02.027)       0:00:08.756 ***** 
+[0;33mchanged: [sclairville-cah-hn4z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:54 +0000 (0:00:00.125)       0:00:08.882 ***** 
+
+TASK [prereq-checks : fetch outputs from target] *******************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-hg24.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:54 +0000 (0:00:00.262)       0:00:09.144 ***** 
+[0;33mchanged: [sclairville-cah-hn4z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:54 +0000 (0:00:00.134)       0:00:09.279 ***** 
+
+TASK [prereq-checks : clean up temporary directory] ****************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-hg24.c.solutionsarchitect-01.internal][0m
+[0;33mchanged: [sclairville-cah-hn4z.c.solutionsarchitect-01.internal][0m
+
+TASK [prereq-checks : run driver] **********************************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-3z2z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:55 +0000 (0:00:00.827)       0:00:10.107 ***** 
+
+TASK [prereq-checks : fetch outputs from target] *******************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-3z2z.c.solutionsarchitect-01.internal][0m
+Wednesday 06 October 2021  13:25:56 +0000 (0:00:00.415)       0:00:10.522 ***** 
+
+TASK [prereq-checks : clean up temporary directory] ****************************************************************************************************************************************************************************************
+[0;33mchanged: [sclairville-cah-3z2z.c.solutionsarchitect-01.internal][0m
+
+PLAY RECAP *********************************************************************************************************************************************************************************************************************************
+[0;33msclairville-cah-3s98.c.solutionsarchitect-01.internal[0m : [0;32mok=5   [0m [0;33mchanged=5   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[0;33msclairville-cah-3z2z.c.solutionsarchitect-01.internal[0m : [0;32mok=5   [0m [0;33mchanged=5   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[0;33msclairville-cah-hg24.c.solutionsarchitect-01.internal[0m : [0;32mok=5   [0m [0;33mchanged=5   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+[0;33msclairville-cah-hn4z.c.solutionsarchitect-01.internal[0m : [0;32mok=5   [0m [0;33mchanged=5   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Wednesday 06 October 2021  13:25:56 +0000 (0:00:00.462)       0:00:10.985 ***** 
+=============================================================================== 
+prereq-checks : run driver ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 3.88s
+prereq-checks : copy driver file to target ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 1.33s
+prereq-checks : create temporary directory ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 0.65s
+prereq-checks : clean up temporary directory ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.46s
+prereq-checks : fetch outputs from target ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 0.42s

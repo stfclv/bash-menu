@@ -75,6 +75,8 @@ action4() {
 action5() {
 		echo "Monitoring w/Prometheus & Grafana"
 		echo -n "Press enter to continue ... "
+		read response
+		unbuffer ./.action5.sh  2>&1 | tee -a exec_logs/`date +\%Y\%m\%d_Action_5_\%H:\%M`-5.log ;
 
  		echo -e "\nPress ENTER To Return to the main menu..."
                 read response
