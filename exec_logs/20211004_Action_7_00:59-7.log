@@ -1,33 +1,0 @@
-[0;33msclairville-cah-3z2z.c.solutionsarchitect-01.internal | CHANGED | rc=0 >>[0m
-[0;33mRunning in a "--no-prompt" mode [0m
-[0;33mImplicit acceptance of the license below:  [0m
-[0;33mApache License 2.0 [0m
-[0;33mhttps://www.apache.org/licenses/LICENSE-2.0 [0m
-[0;33mDownloading component Kafka Connect Datagen 0.5.0, provided by Confluent, Inc. from Confluent Hub and installing into /usr/share/confluent-hub-components [0m
-[0;33mImplicit confirmation of the question: Do you want to uninstall existing version 0.5.0? [0m
-[0;33mAdding installation directory to plugin path in the following files: [0m
-[0;33m  /etc/kafka/connect-distributed.properties [0m
-[0;33m  /etc/kafka/connect-standalone.properties [0m
-[0;33m  /etc/schema-registry/connect-avro-distributed.properties [0m
-[0;33m  /etc/schema-registry/connect-avro-standalone.properties [0m
-[0;33m  /opt/confluent/etc/kafka/connect-distributed.properties [0m
-[0;33m [0m
-[0;33mCompleted [0m
-[1;35m[WARNING]: Consider using the get_url or uri module rather than running 'curl'.  If you need to use command because get_url or uri is insufficient you can add 'warn: false' to this command task or set[0m
-[1;35m'command_warnings=False' in ansible.cfg to get rid of this message.[0m
-[0;33msclairville-cah-3z2z.c.solutionsarchitect-01.internal | CHANGED | rc=0 >>[0m
-[0;33m  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current[0m
-[0;33m                                 Dload  Upload   Total   Spent    Left  Speed[0m
-[0;33m  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to ::1: Network is unreachable[0m
-[1;35m[WARNING]: Consider using the get_url or uri module rather than running 'curl'.  If you need to use command because get_url or uri is insufficient you can add 'warn: false' to this command task or set[0m
-[1;35m'command_warnings=False' in ansible.cfg to get rid of this message.[0m
-[0;31msclairville-cah-3z2z.c.solutionsarchitect-01.internal | FAILED | rc=7 >>[0m
-[0;31m  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current[0m
-[0;31m                                 Dload  Upload   Total   Spent    Left  Speed[0m
-[0;31m  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to ::1: Network is unreachablenon-zero return code[0m
-[1;35m[WARNING]: Consider using the get_url or uri module rather than running 'curl'.  If you need to use command because get_url or uri is insufficient you can add 'warn: false' to this command task or set[0m
-[1;35m'command_warnings=False' in ansible.cfg to get rid of this message.[0m
-[0;31msclairville-cah-3z2z.c.solutionsarchitect-01.internal | FAILED | rc=7 >>[0m
-[0;31m  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current[0m
-[0;31m                                 Dload  Upload   Total   Spent    Left  Speed[0m
-[0;31m  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (7) Failed to connect to ::1: Network is unreachablenon-zero return code[0m
