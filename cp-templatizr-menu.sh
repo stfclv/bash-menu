@@ -145,7 +145,7 @@ menuActions=(
 )
 
 ## Override some menu defaults
-menuTitle="   Templatizr POC | Confluent Platform (CP 6.x) "
+menuTitle="   Templatizr POC v.1.0 | Confluent Platform (CP 6.x) "
 menuFooter="  Enter=Select, Navigate via Up/Down/First number/letter "
 menuWidth=80
 menuLeft=25

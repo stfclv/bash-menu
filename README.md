@@ -1,4 +1,4 @@
-# Templatizr Menu
+# Confluent Platform Templatizr Menu
 
 Templatizr is a bash scrip to easily allow you to deploy a Confluent Platorm Cluster on your favorite Cloud provider. 
 In the version 1.1, all the tests have been deployed via GCP (Google Cloud Paltorm), and you can select from the interactive menu the action you would like to run from the Templatizr.
@@ -135,6 +135,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **Kris Johnson** - *Initial work* - [barbw1re](https://github.com/barbw1re)
 * **Stef Clairville** - *cp-templatizr work* - [stfclv](https://github.com/stfclv)
+* **Todd Boetticher** - *cp-templatizr work* - [tboetticher](https://github.com/tboetticher)
 
 See also the list of [contributors](https://github.com/barbw1re/bash-menu/contributors) who participated in this project.
 
