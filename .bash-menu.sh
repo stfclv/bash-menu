@@ -39,13 +39,13 @@ declare -r menuScript=$(readlink -f ${BASH_SOURCE[0]})
 menuRoot=$(dirname "$menuScript")
 
 # Ensure we can access our dependencies
-if [ ! -s "$menuRoot/bash-draw.sh" ]; then
+if [ ! -s "$menuRoot/.bash-draw.sh" ]; then
     echo "ERROR: Missing required draw.sh script"
     exit 1
 fi
 
 # Load terminal drawing functions
-. "$menuRoot/bash-draw.sh"
+. "$menuRoot/.bash-draw.sh"
 
 
 ################################

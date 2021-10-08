@@ -1,15 +1,16 @@
-# Bash Menu
+# Templatizr Menu
 
-Bash Menu is a Bash script to easily allow you to add a menu to your own scripts.
+Templatizr is a bash scrip to easily allow you to deploy a Confluent Platorm Cluster on your favorite Cloud provider. 
+In the version 1.1, all the tests have been deployed via GCP (Google Cloud Paltorm), and you can select from the interactive menu the action you would like to run from the Templatizr.
 
-You can add an interactive menu like the following to your own scripts with just a few simple steps:
 
 ![Bash Menu](https://raw.githubusercontent.com/barbw1re/bash-menu/bash-menu-meta/bash-menu.png)
 
+Templatizr is a fork from bash-menu and leverage all the functions and methods coded.
 
 ## Features
 
-The Bash Menu will clear the screen and display a menu as shown above. You can select the menu item currently highlighted by pressing Enter. You can navigate the options using the following methods:
+The Templatizr Menu will clear the screen and display a menu as shown above. You can select the menu item currently highlighted by pressing Enter. You can navigate the options using the following methods:
 
 * Up and Down arrow keys will move to previous and next menu item.
 * Pressing Up on the top menu item will move to the last menu item (and Down on the last will move you to the first item).
@@ -37,17 +38,15 @@ The `bash-menu.sh` script includes (and needs) the `bash-draw.sh` script and req
 
 ## Usage
 
-See the `demo.sh` script for an introduction to how to incorporate Bash Menu in your own scripts, but the quick steps would be:
+See the `cp-templatir.sh` to run the script and feel free to read and collect the logs from the `exec_logs` folder:
 
 
 ### Step 1. Download the Bash Menu scripts
 
-Download `bash-menu.sh` and `bash-draw.sh` and put them somewhere (in the same directory as each other).
 
 
 ### Step 2. Import Bash Menu into your own script
 
-Somewhere in your own Bash script, before you want to use or configure a menu, you should import the `bash-menu.sh` script, either via (assuming the same directory as your script):
 
 ```
 source bash-menu.sh
@@ -72,7 +71,6 @@ When the corresponding menu item is selected, the screen will be cleared and the
 
 ### Step 4. Setup menu items
 
-Two arrays need to be populated for the menu; one containing the menu item labels, and the other containing the associated handler functions as created in the previous step.
 
 ```
 menuItems=(
@@ -136,6 +134,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Kris Johnson** - *Initial work* - [barbw1re](https://github.com/barbw1re)
+* **Stef Clairville** - *cp-templatizr work* - [stfclv](https://github.com/stfclv)
 
 See also the list of [contributors](https://github.com/barbw1re/bash-menu/contributors) who participated in this project.
 

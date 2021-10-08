@@ -12,7 +12,7 @@ fi
 # NOTE: Ensure this is done before using
 #       or overriding menu functions/variables.
 #
-. "bash-menu.sh"
+. ".bash-menu.sh"
 
 
 ################################
@@ -123,10 +123,10 @@ actionX() {
 ## NOTE: If these are not all the same width
 ##       the menu highlight will look wonky
 menuItems=(
-    "1. Deploy Terraform instances on GCP [WIP]"
-    "2. OS Prerequisites & Performance Management [OK]"
-    "3. Prereqs Checker [OK]"
-    "4. Confluent Platform 6.x deployment via Ansible [OK]"
+    "1. Deploy Terraform instances on GCP"
+    "2. OS Prerequisites & Performance Management"
+    "3. Prereqs Checker"
+    "4. Confluent Platform 6.x deployment via Ansible"
     "5. Monitoring w/Prometheus & Grafana"
     "6. Kafka Cluster Benchmarking"
     "7. Data-in-Motion Checker via Connect/ksqlDB"
@@ -145,7 +145,7 @@ menuActions=(
 )
 
 ## Override some menu defaults
-menuTitle="   Templatization POC | Confluent Platform (CP 6.x) "
+menuTitle="   Templatizr POC | Confluent Platform (CP 6.x) "
 menuFooter="  Enter=Select, Navigate via Up/Down/First number/letter "
 menuWidth=80
 menuLeft=25
