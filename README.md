@@ -4,7 +4,8 @@ Templatizr is a bash scrip to easily allow you to deploy a Confluent Platorm Clu
 In the version 1.1, all the tests have been deployed via GCP (Google Cloud Paltorm), and you can select from the interactive menu the action you would like to run from the Templatizr.
 
 
-![Bash Menu](https://raw.githubusercontent.com/barbw1re/bash-menu/bash-menu-meta/bash-menu.png)
+
+![Templatizr Menu](https://user-images.githubusercontent.com/5979768/136478241-994eb20b-6342-4775-9acc-588dff398a4a.png)
 
 Templatizr is a fork from bash-menu and leverage all the functions and methods coded.
 
