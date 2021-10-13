@@ -16,7 +16,7 @@ fi
 
 
 ################################
-## Example Menu Actions
+## Templatizr Menu Actions
 ##
 ## They should return 1 to indicate that the menu
 ## should continue, or return 0 to signify the menu
@@ -113,7 +113,7 @@ actionX() {
 
 ################################
 
-## Menu Item Text
+## Templatizr Menu Item Text Displayed
 ##
 ## It makes sense to have "Exit" as the last item,
 ## as pressing Esc will jump to last item (and
