@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../hadoop-prerequisites-deployment/
+cd ../cp-prerequisites-poc/
 ln ../hostlist
 prereqs_repo=`pwd`
 echo $prereqs_repo
